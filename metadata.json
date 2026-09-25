@@ -1,0 +1,6 @@
+{
+  "name": "Matchaa India — Japanese Ceremonial Matcha",
+  "description": "India's premier farm-direct Japanese matcha house. Stone-milled on granite from 35-day shade-grown Uji and Yame tea fields. Express Pan-India delivery & UPI checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

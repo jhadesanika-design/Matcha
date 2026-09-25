@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+/* Gilroy webfont definitions */
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy-Bold'), local('Gilroy Bold'),
+       url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/Gilroy-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy-SemiBold'), local('Gilroy SemiBold'),
+       url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/Gilroy-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy-Medium'), local('Gilroy Medium'),
+       url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/Gilroy-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy-Regular'), local('Gilroy'),
+       url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/Gilroy-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --color-primary: #4F6815;
+    --color-deep: #2D3D0C;
+    --color-secondary: #F7EFDA;
+    --color-driftwood: #E2DAC4;
+    --color-charcoal: #192207;
+    --color-bone: #FFFFFF;
+    --color-smoke: #6B7455;
+    --color-ash: #91997F;
+    --color-espresso: #2B3512;
+
+    /* Primary: IBM Plex Sans | Secondary: Gilroy (with Plus Jakarta Sans fallback) */
+    --font-primary: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-secondary: 'Gilroy', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  body {
+    background-color: #F7EFDA;
+    color: #4F6815;
+    font-family: var(--font-primary);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+/* Primary Font (IBM Plex Sans) Utility */
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+/* Secondary Font (Gilroy) Utility */
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+/* Aliases for seamless component typography */
+.font-serif {
+  font-family: var(--font-secondary);
+}
+
+.font-mono {
+  font-family: var(--font-primary);
+}
+
+/* Custom utility tracking classes */
+.tracking-eyebrow {
+  letter-spacing: 2px;
+}
+
+.tracking-display {
+  letter-spacing: 2.5px;
+}
+
+.tracking-mono-tight {
+  letter-spacing: -0.2px;
+}
+
+.tracking-nav {
+  letter-spacing: 0.5px;
+}
+
+.tracking-btn {
+  letter-spacing: 0.6px;
+}
+
+/* Hide scrollbar for clean carousels */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

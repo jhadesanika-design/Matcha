@@ -13,7 +13,7 @@ interface CarouselSlide {
 const SLIDES: CarouselSlide[] = [
   {
     id: 'powder-macro',
-    image: '/src/assets/images/matcha_powder_macro_1790249416783.jpg',
+    image: '/images/matcha_powder_macro_1790249416783.jpg',
     alt: 'Vibrant electric jade green ceremonial matcha powder on bamboo scoop',
     title: '100% VIBRANT JADE GREEN',
     meta: 'FIRST HARVEST LEAVES · ZERO ADDED COLOR',
@@ -21,7 +21,7 @@ const SLIDES: CarouselSlide[] = [
   },
   {
     id: 'tins-lineup',
-    image: '/src/assets/images/matcha_tins_collection_1790249430583.jpg',
+    image: '/images/matcha_tins_collection_1790249430583.jpg',
     alt: 'Minimalist matte green matcha tins on pedestal',
     title: 'SEALED FOR INDIAN WEATHER',
     meta: 'AIR-FREIGHTED TO INDIA · VACUUM PACKED',
@@ -29,7 +29,7 @@ const SLIDES: CarouselSlide[] = [
   },
   {
     id: 'ceremonial-chawan',
-    image: '/src/assets/images/matcha_chawan_ceremony_1790248241090.jpg',
+    image: '/images/matcha_chawan_ceremony_1790248241090.jpg',
     alt: 'Earthy ceramic chawan bowl with vibrant jade frothy whisked matcha and bamboo chasen',
     title: '4–6 HOURS OF CALM FOCUS',
     meta: 'NO JITTERS · NO AFTERNOON COFFEE CRASH',
@@ -37,7 +37,7 @@ const SLIDES: CarouselSlide[] = [
   },
   {
     id: 'iced-latte',
-    image: '/src/assets/images/matcha_latte_pastry_1790248203402.jpg',
+    image: '/images/matcha_latte_pastry_1790248203402.jpg',
     alt: 'Iced layered strawberry matcha latte on table',
     title: 'CAFE ICED LATTES AT HOME',
     meta: 'OAT MILK, ALMOND MILK OR REGULAR MILK · ₹50/CUP',

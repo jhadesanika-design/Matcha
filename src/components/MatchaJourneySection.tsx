@@ -9,7 +9,7 @@ const JOURNEY_STEPS: JourneyStep[] = [
     timeframe: 'April — Early May (Kyoto Hills)',
     description: 'Before harvest, tea bushes in Kyoto are covered with canopies to block 98% of sunlight. Starved of direct light, the plant supercharges its leaves with rich emerald chlorophyll and L-theanine amino acids—removing bitterness and creating a sweet, savory taste.',
     whyItMatters: 'Removes bitterness & packs the leaf with calming L-Theanine',
-    image: '/src/assets/images/matcha_tana_shading_1790249799436.jpg',
+    image: '/images/matcha_tana_shading_1790249799436.jpg',
     alt: 'Traditional Japanese tea farm in Uji covered in black shading nets in mountain mist',
   },
   {
@@ -19,7 +19,7 @@ const JOURNEY_STEPS: JourneyStep[] = [
     timeframe: 'Early Spring Harvest',
     description: 'Farmers gently harvest only the tender top two leaves and newly emerged bud. Leaves are steamed immediately to lock in fresh green colour, then destemmed and deveined so only pure tender leaf flakes (tencha) remain.',
     whyItMatters: 'Zero bitter stems or fibers—only soft, sweet leaf tissue',
-    image: '/src/assets/images/matcha_harvest_leaves_1790249818445.jpg',
+    image: '/images/matcha_harvest_leaves_1790249818445.jpg',
     alt: 'Hands picking tender young bright green tea leaves during first flush harvest',
   },
   {
@@ -29,7 +29,7 @@ const JOURNEY_STEPS: JourneyStep[] = [
     timeframe: 'Hypnotic Granite Mills',
     description: 'The tender dried leaves are ground between heavy hand-cut granite stones. The stones turn at a slow, meditative pace so friction heat never scorches the delicate tea aroma. It takes 60 full minutes of patient grinding to produce a single 30-gram tin.',
     whyItMatters: 'Zero heat damage preserves natural antioxidants & aroma',
-    image: '/src/assets/images/matcha_stone_mill_1790249840334.jpg',
+    image: '/images/matcha_stone_mill_1790249840334.jpg',
     alt: 'Natural granite stone mill slowly grinding tencha into vibrant green matcha powder',
   },
   {
@@ -39,7 +39,7 @@ const JOURNEY_STEPS: JourneyStep[] = [
     timeframe: '5–10 Micron Particle Size',
     description: 'The resulting powder is so fine it feels like melted silk between your fingertips. Because you consume the whole ground leaf rather than steeping and discarding tea bags, your body absorbs 100% of the vitamins, minerals, and polyphenols.',
     whyItMatters: 'You absorb 100% of the leaf nutrients vs 10% in normal green tea bags',
-    image: '/src/assets/images/matcha_powder_macro_1790249416783.jpg',
+    image: '/images/matcha_powder_macro_1790249416783.jpg',
     alt: 'Macro photograph of electric jade green ceremonial matcha powder on bamboo scoop',
   },
   {
@@ -49,7 +49,7 @@ const JOURNEY_STEPS: JourneyStep[] = [
     timeframe: '2–3 Days Pan-India Express',
     description: 'Flown directly from Kyoto into Mumbai and Delhi air hubs. When you whisk 1 teaspoon with warm water, it creates a thick green micro-foam crema that delivers 4 to 6 hours of clean, jitter-free energy to power your workday.',
     whyItMatters: 'Freshly arrived with zero stale warehouse storage',
-    image: '/src/assets/images/matcha_chawan_ceremony_1790248241090.jpg',
+    image: '/images/matcha_chawan_ceremony_1790248241090.jpg',
     alt: 'Earthy ceramic bowl with vibrant jade frothy whisked matcha and bamboo chasen',
   },
 ];

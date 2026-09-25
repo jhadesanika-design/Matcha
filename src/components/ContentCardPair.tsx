@@ -29,7 +29,7 @@ export const ContentCardPair: React.FC<ContentCardPairProps> = ({ onShopTeaware 
           {/* Left Column: Natural-edge photography */}
           <div className="lg:col-span-7 overflow-hidden rounded-[14px] border border-[#E2DAC4]">
             <img
-              src="/src/assets/images/matcha_chawan_ceremony_1790248241090.jpg"
+              src="/images/matcha_chawan_ceremony_1790248241090.jpg"
               alt="Hand-whisked bowl of vibrant green ceremonial matcha with bamboo chasen"
               referrerPolicy="no-referrer"
               className="w-full h-auto object-cover"
